@@ -9,4 +9,5 @@ while True:
     # Processing of image and other stuff here
     cv2.imshow('Frame', frame)
     if cv2.waitKey(1) & 0xFF == ord('q'):
-        break
+        break#
+    
