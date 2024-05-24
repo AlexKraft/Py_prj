@@ -24,11 +24,11 @@ for i in range(0,450):
         break
     # cv2.imshow(win_name, frame)
     out_mp4.write(frame)
-    time.sleep(1)
+    # time.sleep(1)
 
 source.release()
 out_mp4.release()
 # cv2.destroyWindow(win_name) 
 #ajbsvchjad
 
-https://github.com/ddelago/AR-Projection-Mapping/blob/master/pose_markerPerpTrans.py
+# https://github.com/ddelago/AR-Projection-Mapping/blob/master/pose_markerPerpTrans.py
